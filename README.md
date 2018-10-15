@@ -1,5 +1,7 @@
-# This is a README about this portfolio project explaining what it contains and how it was built.
+# Portfolio Project
 
-## More info to come shortly.
+## This is a README about this portfolio project explaining what it contains and how it was built.
 
-### I promise
+### More info to come shortly.
+
+#### ...I promise
