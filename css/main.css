@@ -1,0 +1,165 @@
+/*!
+
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+
+ * Copyright 2013-2017 Start Bootstrap
+
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+
+ */
+
+html {
+	color:red;
+	}
+
+
+header {
+	display:block;
+  	padding: 210px 0 100px; 
+
+}
+
+
+@media (min-width: 992px) {
+
+  header {
+
+    padding: 156px 0 100px;
+
+  }
+
+}
+
+
+
+section {
+
+  padding: 150px 0;
+
+}
+
+
+
+
+
+/* ---- gallery styling ---- */
+
+
+
+.wrapper{font-size:0;}/*for inline block spacing*/
+
+
+
+#portfolio a {
+
+  display:inline-block;
+
+  width:33%;
+
+  /* height:50vh; */
+
+  position:relative;
+
+}
+
+#portfolio a img {
+
+  height:100%; 
+
+  width:100%;
+
+  object-fit:cover;}
+
+
+
+.portfolio a:before, a:after{
+
+  width:100%;
+
+  position:absolute;
+
+  opacity:0;
+
+  transition:opacity 0.3s ease;
+
+
+
+}
+
+
+
+a:before{
+
+  content:'';
+
+  height:100%;
+
+  background:rgba(100,100,100,0.6);
+
+}
+
+
+
+a:after{
+
+  content:attr(data-title);
+
+  font-size:24px;
+
+  top:calc(50% - 0.5em);
+
+  left:0;
+
+  text-align:center;
+
+  color:#fff;
+
+  text-transform:uppercase;
+
+}
+
+
+
+a:hover:before, a:hover:after{
+
+  opacity:1;
+
+}
+
+
+
+
+
+/* More tweaks */
+
+
+
+#portfolio {
+
+  color: white; 
+
+  
+
+  background: url(http://res.cloudinary.com/mpauldesigns/image/upload/v1522859792/wood-3271749_1920_mirror.jpg) no-repeat center center fixed; 
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+}
+
+
+
+
+
+
+
+/* grow buttons */
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
